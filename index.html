@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download ADB Platform Tools</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #073042;
+            color: white;
+            padding: 2rem;
+        }
+
+        .download-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 40px 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 250px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3ddc84;
+            color: #073042;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background-color: #32b86c;
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Download Android SDK Platform Tools (ADB)</h1>
+        <p>Get the latest official ADB binaries for Windows, macOS, and Linux.</p>
+    </header>
+
+    <main class="download-container">
+        <!-- Direct official Google Links -->
+        <div class="card">
+            <h2>Windows</h2>
+            <p>Version 35.0.0+</p>
+            <a href="https://dl.google.com/android/repository/platform-tools-latest-windows.zip" class="btn">Download for Windows</a>
+        </div>
+
+        <div class="card">
+            <h2>macOS</h2>
+            <p>Version 35.0.0+</p>
+            <a href="https://dl.google.com/android/repository/platform-tools-latest-darwin.zip" class="btn">Download for Mac</a>
+        </div>
+
+        <div class="card">
+            <h2>Linux</h2>
+            <p>Version 35.0.0+</p>
+            <a href="https://dl.google.com/android/repository/platform-tools-latest-linux.zip" class="btn">Download for Linux</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Official binaries sourced directly from Google Android Developers.</p>
+    </footer>
+
+</body>
+</html>
